@@ -177,6 +177,13 @@ python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  -
 
 </details>
 
+<details>
+<summary>Multi-Backbone Substitution</summary>
+
+- Reference: [Gumpest/YOLOv5-Multibackbone-Compression](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)
+
+</details>
+
 ## <div align="center">Integrations</div>
 
 <br>
