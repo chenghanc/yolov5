@@ -180,6 +180,14 @@ python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  -
 <details>
 <summary>Multi-Backbone Substitution</summary>
 
+Train on Private DataSet (batch 16)
+
+| Model                    | Network Size| mAP50 | mAP50-95 | Parameters (M) | GFLOPs |
+|:-------------------------|:-----------:|:-----:|:--------:|:--------------:|:------:|
+| YOLOv5m                  | 640         | 99.1  | 75.3     | 20.87          | 47.9   |
+| YOLOv5l-Mobilenetv3Small | 640         | 98.1  | 69.8     | 20.33          | 38.3   |
+| YOLOv5l-EfficientLite    | 640         |       |          |                |        |
+
 - Reference: [Gumpest/YOLOv5-Multibackbone-Compression](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)
 
 </details>
