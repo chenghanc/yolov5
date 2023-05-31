@@ -196,7 +196,9 @@ python train.py --img 640 --batch 16 --epochs 300 --data rgb.yaml --weights yolo
 
 - To run `yolov5xP2CBAM-TPH-BiFPN-SPP.yaml`, turn off `torch.use_deterministic_algorithms(True)` in ./utils/general.py
 
-- Reference: [Gumpest/YOLOv5-Multibackbone-Compression](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)
+- To run `yolov5s_cbam.yaml`, turn off `torch.use_deterministic_algorithms(True)` in ./utils/general.py
+
+- Reference: [Gumpest/YOLOv5-Multibackbone-Compression](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression), [yoloair](https://github.com/iscyy/yoloair)
 
 </details>
 
