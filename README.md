@@ -202,6 +202,17 @@ python train.py --img 640 --batch 16 --epochs 300 --data rgb.yaml --weights yolo
 
 </details>
 
+<details>
+<summary>Object-Detection Counter</summary>
+
+```bash
+python detect-count.py --weights yolov5m.pt --img 640 --conf 0.25 --source test.mp4 --line-thickness 3 --print_all
+                                                                                                       --print_class dog
+```
+
+
+</details>
+
 ## <div align="center">Integrations</div>
 
 <br>
