@@ -310,7 +310,6 @@ class ConfusionMatrix:
         return (tp[:-1], fp[:-1]) if self.task == 'detect' else (tp, fp)  # remove background class if task=detect
 
     @TryExcept('WARNING ⚠️ ConfusionMatrix plot failure')
-    @plt_settings()
     def plot(self, normalize=True, save_dir='', names=(), on_plot=None):
         """
         Plot the confusion matrix using seaborn and save it to a file.
